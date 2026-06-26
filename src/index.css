@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+:root {
   --color-gold-50: #FFF9E6;
   --color-gold-100: #FFF0BF;
   --color-gold-200: #FFE699;
@@ -250,7 +252,7 @@ input:focus, textarea:focus, select:focus {
   color: #FFD700;
 }
 
-/* ============ WHAtSAPP ============ */
+/* ============ WHATSAPP ============ */
 .whatsapp-float {
   position: fixed;
   bottom: 24px;
